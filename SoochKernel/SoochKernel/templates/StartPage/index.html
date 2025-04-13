@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Person SoochKernel</title>
+    </head>
+    <body>
+        {% for model in Person %}
+        <h1>{{model.name}}</h1>
+        <h2>{{model.surname}}</h2>
+        <h3>{{model.age}}</h3>
+    {% endfor %}
+    </body>
+</html>

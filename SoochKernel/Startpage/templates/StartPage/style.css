@@ -1,0 +1,88 @@
+html {
+    font-family: sans-serif;
+    margin: auto;
+}
+header {
+    display: flex;
+    align-items: center;
+}
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+nav {
+    font-weight: 600;
+    
+}
+nav a {
+    text-decoration: none;
+    color:black;
+    margin-right: 30px;
+}
+header div {
+    margin-left: auto;
+    margin-right: 30px;
+}
+header div a {
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+    margin-right: 40px;
+}
+.signin {
+    color: black;
+    padding: 7px 15px;
+    border-radius: 40px;
+    font-weight: 600;
+    opacity: 100;
+}
+.joinnow {
+    background-color: black;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 40px;
+    font-weight: 600;
+}
+.logo {
+    margin: 20px 40px;
+}
+
+body {
+    width: 70%;
+}
+body div {
+    display: flex;
+    align-items: center;
+    background-color:  #2f422c;
+    margin: 40px 0px;
+    color: white;
+}
+body div img {
+    width: 50%;
+}
+body div div {
+    display: grid;
+    justify-items: center;
+    margin: auto;
+    width: 50%;
+    padding: 0px 60px;
+   text-align: center;
+}
+body div div h1 {
+    font-size: 2vw;
+    font-weight: 600;
+}
+body div div h4 {
+    font-size: 1vw;
+    font-weight: 400;
+}
+.bodybutton {
+    background-color: #2f422c;
+    color:white;
+    border-width: 0.1px;
+    border-color: white;
+    padding: 7px 15px;
+    border-radius: 40px;
+    font-weight: 600;
+    opacity: 100;
+}
