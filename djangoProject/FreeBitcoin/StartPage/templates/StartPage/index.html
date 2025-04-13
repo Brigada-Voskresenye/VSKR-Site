@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User FreeBitcoin</title>
+    </head>
+    <body>
+        {% for model in User %}
+            <h1>{{ model.login }}</h1>
+            <h2>{{ model.password }}</h2>
+        {% endfor %}
+    </body>
+</html>
